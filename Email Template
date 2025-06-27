@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weekly Newsletter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(16px);
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+    }
+
+    .header, .footer {
+      background: linear-gradient(120deg, #FF6B6B, #FFB347);
+      color: white;
+      text-align: center;
+      padding: 40px 25px;
+    }
+
+    .header h2 {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+
+    .header p {
+      font-size: 16px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #ffffff;
+      color: #ff6b6b;
+      font-weight: bold;
+      border-radius: 30px;
+      margin-top: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #ffb347;
+      color: white;
+    }
+
+    .content {
+      padding: 40px 25px;
+      text-align: center;
+      color: #333;
+    }
+
+    .content h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .feature {
+      flex: 0 0 42%;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: scale(1.05);
+    }
+
+    .feature img {
+      width: 48px;
+      margin-bottom: 12px;
+    }
+
+    .feature h4 {
+      margin: 10px 0 6px;
+      font-size: 18px;
+      color: #ff6b6b;
+    }
+
+    .feature p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .footer p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .footer a {
+      color: #fffacd;
+      text-decoration: none;
+    }
+
+    .social img {
+      width: 24px;
+      margin: 0 6px;
+      vertical-align: middle;
+    }
+
+    @media screen and (max-width: 600px) {
+      .feature {
+        flex: 0 0 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <img src="https://img.icons8.com/clouds/100/news.png" alt="Newsletter Icon" width="60" />
+      <h2>Weekly Newsletter</h2>
+      <p>Stay updated with exciting news, features & offers</p>
+      <a href="#" class="button">Visit Your Dashboard</a>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <p style="color:#ff6b6b; font-weight:bold;">🚀 NEW FEATURES</p>
+      <h3>Explore What’s New</h3>
+      <div class="features">
+        <div class="feature">
+          <img src="https://img.icons8.com/color/48/clock.png" alt="Timer">
+          <h4>Smart Timer</h4>
+          <p>Keep track of your focus and breaks like a pro.</p>
+        </div>
+        <div class="feature">
+          <img src="https://img.icons8.com/color/48/ruler.png" alt="Measure Tool">
+          <h4>Measure Tool</h4>
+          <p>Take precise UI measurements effortlessly.</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/1250/1250615.png" alt="Slider Icon" width="48" height="48">
+            <h4>Custom Sliders</h4>
+            <p>Adjust preferences and settings quickly.</p>
+        </div>
+
+        <div class="feature">
+          <img src="https://img.icons8.com/color/48/user.png" alt="Users">
+          <h4>User Panel</h4>
+          <p>Access your data and preferences anytime.</p>
+        </div>
+      </div>
+      <a href="#" class="button" style="margin-top: 30px;">Explore All Features</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>You received this email because you signed up on our website or made a purchase.</p>
+      <p><a href="#">Unsubscribe</a></p>
+      <div class="social">
+        <a href="#"><img src="https://img.icons8.com/fluency/24/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="https://img.icons8.com/fluency/24/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="https://img.icons8.com/fluency/24/instagram-new.png" alt="Instagram" /></a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
